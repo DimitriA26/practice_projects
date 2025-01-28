@@ -115,7 +115,7 @@ def add_data():
     def append_file(file, contents):
         try:
             with open(file, "a") as file:
-                file.write(f"\n{contents}")
+                file.write(f"{contents}")
             print(f"Data successfully transfered to {file}. ")
 
         except Exception as e:

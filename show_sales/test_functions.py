@@ -1,8 +1,3 @@
-import numpy as np
-np.set_printoptions(suppress=True)
-print(np.arange(-1, 1, 0.1))
-
-
 import matplotlib.pyplot as plt
 import numpy as np
 np.set_printoptions(suppress=True)
